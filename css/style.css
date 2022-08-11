@@ -1,0 +1,326 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'poppins,' monospace;
+	font-size: 14px;
+	line-height: 24px;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family:' poppins,' sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*header-section-strate*/
+.header-section{
+	width:100%;
+	background: #F0FFF0;
+}
+.nab .logo{
+	width: 200px;
+}
+.collapse .nav-item .nav-link{
+	font-size: 20px;
+	font-weight: 400;
+	margin-left: 20px;
+	color:black;
+
+
+}
+.collapse .nav-item .nav-link :hover{
+	color: #21B573;
+
+}
+.collapse .nav-item .sigin{
+	background-color: #21B573;
+	color: white;
+	padding:10px 25px ;
+	font-size: 18px;
+	border-radius: 15px;
+	border:2px solid #21B573;
+}
+.collapse .nav-item .sigin:hover{
+	background: transparent;
+}
+.collapse .nav-item .active{
+	background: #21B573;
+	border-radius: 10px;
+
+
+}
+/*header-section-end*/
+/*banner-section-strate*/
+.banner-section{
+	width: 100%;
+	padding:40px 0px;
+}
+.inner-banner {
+	width:100%;
+}
+.inner-banner h5{
+	font-size: 12px;
+	color: #FD511A;
+}
+.inner-banner h2{
+	font-size: 48px;
+	line-height: 70px;
+	color: #000000;
+
+}
+.inner-banner h2 span{
+	color:#21B573;
+}
+.inner-banner p{
+	font-size: 16px;
+	line-height: 36px;
+	color:#6C6B6B;
+	font-weight: 600;
+}
+.inner-banner a{
+	background: #21B573;
+	padding:12px 36px;
+	color:white;
+	border:2px solid black;
+	border-radius: 20px;
+}
+
+.banner-pic{
+	width:100%;
+
+}
+.banner-pic img{
+	width:100%;
+}
+/*banner-section-strate*/
+/*service-section-strate*/
+.service-section{
+	width: 100%;
+	padding:40px 0px;
+	background: transparent;
+}
+.service-inner{
+	width:100%;
+
+}
+.service-inner img{
+	width:100px;
+	padding:0px 0px 20px 0px;
+}
+.service-inner h3{
+	font-size: 24px;
+	color:#413960;
+	font-weight: 500;
+	padding:0px 0px 0px 0px;
+}
+.service-inner p{
+	color:#585859;
+}
+
+/* portphlio-section strate */
+
+
+.portpholio-section{
+	width: 100%;
+	padding:40px 0px;
+
+}
+.portpholio-section .title h2{
+	text-align: center;
+	padding:0px 0px 50px 0px ;
+}
+.por {
+	width: 100%;
+    padding: 40px  30px;
+    background: #FFFFFF;
+    box-shadow: 1px 0px 10px -6px;
+}
+.portpholio-section .portpolio-inner{
+	width:100%;
+
+
+}
+.portpholio-section .portpolio-inner img{
+	width:100%;
+
+
+}
+.card-footer{
+	padding:25px 10px ;
+	background: none;
+	border:none;
+	color:black;
+}
+.card-footer .jan i{
+	padding-right: 10px;
+	color:black;
+
+}
+.card-footer .jan a{
+	color:black;
+
+}
+.card-footer .la i{
+	padding-right: 20px;
+	
+}
+.card-footer .la a{
+	color:black;
+}
+.portpolio-inner img{
+	width: 300px;
+	text-align: center;
+
+}
+.portpolio-inner h5{
+	color: #413960;
+}
+.portpolio-inner a{
+	background: #21B573;
+	padding:8px 28px;
+	color:white;
+	border-radius: 20px;
+
+}
+.foter{
+	margin-top: 20px;
+}
+.port-first{
+	width:100%;
+
+}
+.card-footer .la{
+	text-align: right;
+}
+
+/*man-section-strate*/
+.man-section{
+	width:100%;
+	padding:40px 0px;
+}
+.man-title{
+	width:100%;
+	text-align: center;
+	font-size: 36px;
+	color:#000000;
+	padding:0px 0px 30px 0px;
+}
+.man-pic{
+	width:100%;
+	text-align: right;
+
+}
+.man-pic img{
+	width:120px;
+}
+.man-para{
+	width:100%;
+
+}
+
+.man-para p{
+	width:100%;
+	/*padding:0px 20px;*/
+}
+/*man-section-end*/
+/*footer-section-strate*/
+.footer-section{
+	width:100%;
+	padding:40px;
+	background: #282531;
+	color:#FFFFFF;
+}
+.footer-para{
+	width:100%;
+
+}
+.footer-para p{
+	text-align: center;
+	
+/*padding:0px 30px;*/
+font-size: 12px;
+line-height: 20px;
+}
+.fott-cont{
+	width: 100%;
+
+}
+.fott-cont{
+	font-size: 11px;
+	text-align: center;
+}
+.last-fu {
+	text-align: center;
+
+
+}
+.last-fu p{
+	margin-top:50px;
+}
+/*footer-section-end*/
+
+
+/* mediaqure-section-strate */
+@media (min-width: 320px) and (max-width: 480px) {
+	.header-section .logo{
+		width: 100px;
+	}
+		.header-section{
+			padding: 20px 0px;
+		}
+	.bar{
+		font-size: 14px;
+		padding: 0px;
+	}
+
+	.inner-box{
+		padding: 30px 0px;
+	}
+	
+.banner-section .inner-banner{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.banner-section .inner-banner h5{
+	padding-bottom: 20px;
+}
+.banner-section .inner-banner h2{
+	font-size: 24px;
+	line-height: 30px;
+}
+.service-section {
+	padding: 30px 0px;
+}
+.service-section .service-inner{
+	text-align: center;
+}
+.portpholio-section{
+	padding: 30px 0px;
+}
+.card-footer{
+	font-size: 10px;
+}
+.man-section {
+	padding: 30px 0px;
+}
+.man-pic{
+text-align: center;
+	padding: 0px;
+	/*margin: 0px;*/
+}
+
+.man-pic img{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+}
+
+/* mediaqure-section-end*/
